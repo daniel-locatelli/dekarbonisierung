@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T16:36:11.923Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" version="24.2.1" etag="xyVM9Glg3CZ_uZ3z8GA6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T16:42:10.742Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Qi-ykdpsW2uuWYzChkzp" version="24.2.1" type="github">
   <diagram name="Page-1" id="Rhwt4-9U_xO4Ma8bJEcF">
-    <mxGraphModel>
+    <mxGraphModel dx="1313" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="679" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-2" value="Browser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="320" y="20" width="150" height="679" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-3" value="&quot;AEC Carbon Projection Tool (Client-Side)&quot;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="520" y="20" width="317" height="679" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-4" value="Chart.js" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="887" y="20" width="150" height="679" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-5" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" vertex="1" parent="1">
+          <mxGeometry x="85" y="203" width="604" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-6" value="[Data Input]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="Zr0m-TPMKJMMEISlOFcH-5">
+          <mxGeometry x="40" width="564" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-7" value="Accesses website" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Zr0m-TPMKJMMEISlOFcH-1" target="Zr0m-TPMKJMMEISlOFcH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-8" value="Loads tool" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Zr0m-TPMKJMMEISlOFcH-2" target="Zr0m-TPMKJMMEISlOFcH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-9" value="Enters project parameters" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Zr0m-TPMKJMMEISlOFcH-1" target="Zr0m-TPMKJMMEISlOFcH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="397" y="284" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-10" value="Process input data" style="curved=1;rounded=0;" edge="1" parent="1" source="Zr0m-TPMKJMMEISlOFcH-3" target="Zr0m-TPMKJMMEISlOFcH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="729" y="348" />
+              <mxPoint x="729" y="378" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-11" value="Generate chart" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="Zr0m-TPMKJMMEISlOFcH-3" target="Zr0m-TPMKJMMEISlOFcH-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="432" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-12" value="Returns chart" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="Zr0m-TPMKJMMEISlOFcH-4" target="Zr0m-TPMKJMMEISlOFcH-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="486" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-13" value="Displays chart" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="Zr0m-TPMKJMMEISlOFcH-3" target="Zr0m-TPMKJMMEISlOFcH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="547" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zr0m-TPMKJMMEISlOFcH-14" value="Displays tool interface with chart" style="verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;" edge="1" parent="1" source="Zr0m-TPMKJMMEISlOFcH-2" target="Zr0m-TPMKJMMEISlOFcH-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
